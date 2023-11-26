@@ -1,8 +1,8 @@
 import "../../x.css";
-import AccountsAndRecords from "../../assets/AccountsAndRecords.pdf";
-import Approval from "../../assets/Approval.pdf";
+// import AccountsAndRecords from "../../assets/AccountsAndRecords.pdf";
+// import Approval from "../../assets/Approval.pdf";
 import certificateOfProperManagement from "../../assets/certificateOfProperManagement.pdf";
-import seal from "../../assets/seal.pdf";
+// import seal from "../../assets/seal.pdf";
 import chevron from "../../assets/chevron.svg";
 
 import { Link } from "react-router-dom";
@@ -125,19 +125,19 @@ const Footer = () => {
                   </a>
                 </li>
                 <li>
-                  <a download={true} href={seal}>
+                  {/* <a download={true} href={seal}>
                     Midot Seal of Effectiveness
-                  </a>
+                  </a> */}
                 </li>
                 <li>
-                  <a download={true} href={AccountsAndRecords}>
+                  {/* <a download={true} href={AccountsAndRecords}>
                     Approval for Donations Integration (Tax Odinance Section 46)
-                  </a>
+                  </a> */}
                 </li>
                 <li>
-                  <a download={true} href={Approval}>
+                  {/* <a download={true} href={Approval}>
                     Approval for Management of Accounts and Records
-                  </a>
+                  </a> */}
                 </li>
               </ul>
             </div>
