@@ -14,7 +14,6 @@ const NewsArticle = () => {
         setNews(data);
       } catch (error) {
         console.error("Error fetching news:", error);
-        // Handle the error as needed
       }
     };
 
