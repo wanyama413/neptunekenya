@@ -1,0 +1,24 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  scroll-behavior: smooth;
+  font-size: 1.5rem;
+  font-family: sans-serif;
+}
+
+
+.wrapper {
+  height: 100vh;
+  display: grid;
+  grid-template-rows: 3rem 7rem repeat(4, 1fr) auto repeat(4, 1fr) 7rem;
+  grid-template-columns: 1fr;
+
+}

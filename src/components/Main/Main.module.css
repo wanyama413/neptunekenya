@@ -1,0 +1,43 @@
+.photo {
+    width: 100%;
+
+}
+
+.main {
+    position: relative;
+    display: grid;
+}
+
+.inforDiv {
+    position: absolute;
+    bottom: 55%;
+    align-self: center;
+    justify-self: center;
+
+
+}
+
+.inforDiv h2 {
+    text-align: center;
+    color: rgb(0, 106, 105);
+    font-weight: 900;
+
+}
+
+.donateBtn {
+    cursor: pointer;
+    background: rgb(0, 106, 105);
+    border-radius: 3rem;
+    padding: 1.5rem 5rem;
+    outline: none;
+    color: #fff;
+    font-weight: 800;
+    border: none;
+}
+
+@media screen and (max-width: 464px) {
+    .inforDiv {
+        position: relative;
+        bottom: 0;
+    }
+}

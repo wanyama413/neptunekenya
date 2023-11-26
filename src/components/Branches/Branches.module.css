@@ -1,0 +1,69 @@
+ .mapouter {
+     position: relative;
+     height: 400px;
+     width: 400px;
+     background: #fff;
+ }
+
+ .maprouter a {
+     color: #fff !important;
+     position: absolute !important;
+     top: 0 !important;
+     z-index: 0 !important;
+ }
+
+ .gmap_canvas {
+     overflow: hidden;
+     height: 400px;
+     width: 400px
+ }
+
+ .gmap_canvas iframe {
+     position: relative;
+     z-index: 2
+ }
+
+ .branch {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     height: 400px;
+ }
+
+ .branch img {
+     margin-right: 0.3rem;
+     width: 40px;
+     height: 40px;
+
+     object-fit: cover;
+ }
+
+ .card {
+     height: 300px;
+     display: flex;
+     flex-direction: column;
+     flex-wrap: wrap;
+
+ }
+
+ .newsCard {
+     display: flex;
+     align-items: center;
+     width: 100%;
+ }
+
+ @media screen and (max-width: 464px) {
+     .branch {
+         flex-direction: column;
+
+
+     }
+
+     .mapouter {
+         display: none;
+     }
+
+     .card {
+         flex-wrap: nowrap;
+     }
+ }
